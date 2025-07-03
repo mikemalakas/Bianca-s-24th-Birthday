@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Tangerine:wght@400;700&family=Varela&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-tangerine: "Tangerine", "sans-serif";
+  --font-lora: "Lora", "sans-serif";
+  --font-varela: "Varela", "sans-serif";
+  --font-fredoka: "Fredoka", "sans-serif";
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: pink;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
